@@ -16,9 +16,6 @@ import javax.persistence.Id;
 public class EmailEntity {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
     private String email;
 
     // Constructors, getters, and setters

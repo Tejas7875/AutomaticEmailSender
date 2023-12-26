@@ -18,7 +18,7 @@
           }
 
            body {
-                      background-image: url('https://wallpapercave.com/wp/wp5603596.jpg');
+                      background-image: url('https://wallpaperaccess.com/full/1471777.jpg');
                       background-size: cover; /* Adjust this as needed */
                       background-repeat: no-repeat;
                       background-attachment: fixed; /* Fixed to prevent scrolling */
@@ -99,10 +99,16 @@
                 <div class="card mt-5">
                     <div class="card-body">
                         <h1 class="text-center fontlobster">Email Entry Form</h1>
+                    <%-- Display error message here --%>
+                    <c:if test="${not empty param.error}">
+                        <div role="alert">
+                            ${param.error}
+                        </div>
+                    </c:if>
                         <form action="saveEmail" method="post">
                             <div class="form-group">
                                 <label for="email">Email:</label>
-                                <input type="email" class="form-control" id="email" name="email" required>
+                                <input type="text" class="form-control" id="email" name="email" required>
                             </div>
                             <button type="submit" class="btn btn-primary btn-block">Save Email</button>
                         </form>

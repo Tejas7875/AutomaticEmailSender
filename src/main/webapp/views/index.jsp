@@ -14,7 +14,7 @@
     <style>
         /* Custom background styles */
         body {
-            background-image: url('https://wallpapercave.com/wp/wp5603596.jpg');
+            background-image: url('https://wallpaperaccess.com/full/1471777.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;

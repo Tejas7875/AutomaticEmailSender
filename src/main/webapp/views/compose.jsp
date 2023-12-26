@@ -14,7 +14,7 @@
     <style>
         /* Custom background styles */
         body {
-            background-image: url('https://wallpapercave.com/wp/wp5603596.jpg');
+            background-image: url('https://wallpaperaccess.com/full/1471777.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -83,22 +83,18 @@
     <!-- Compose Email Form -->
     <div class="form-container">
         <h1>Compose Email</h1>
-        <form action="/compose/sendEmail" method="post" enctype="multipart/form-data">
+        <form action="/sendEmail" method="post" enctype="multipart/form-data">
             <div class="form-group">
                 <label for="from">From:</label>
                 <input type="email" class="form-control" id="from" name="from" required>
             </div>
             <div class="form-group">
-                <label for="to">To:</label>
-                <input type="email" class="form-control" id="to" name="to" required>
-            </div>
-            <div class="form-group">
                 <label for="subject">Subject:</label>
-                <input type="text" class="form-control" id="subject" name="subject" required>
+                <input type="form-control" class="form-control" id="subject" name="subject" required>
             </div>
             <div class="form-group">
-                <label for="message">Message:</label>
-                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                <label for="text">Message:</label>
+                <textarea class="form-control" id="text" name="text" rows="4" required></textarea>
             </div>
             <div class="form-group">
                 <label for="file">Attachment:</label>
